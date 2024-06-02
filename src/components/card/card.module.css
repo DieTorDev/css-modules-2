@@ -1,0 +1,53 @@
+.card{
+    width: 100%;
+    height: 31.25rem;
+    padding: 3.0625rem;
+    font-family: "Lexend Deca", sans-serif;
+}
+
+@media (min-width: 768px){
+    .card{
+      width: 19.1875rem;
+    }
+}
+
+.card_title{
+    font-family: "Big Shoulders Display", sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: white;
+}
+
+.card_text{
+    font-weight: 300;
+    font-size: 0.9375rem;
+    line-height: 1.5625rem;
+    width: 14.4375rem;
+    height: 7.8125rem;
+    color: white;
+}
+
+.orange{
+    background-color: #E28625;
+    color: #E28625;
+}
+
+.blue{
+    background-color: #006971;
+    color: #006971;
+}
+
+.cyan{
+    background-color: #004140;
+    color: #004140;
+}
+
+.card_button{
+    width: 9.125rem;
+    height: 3rem;
+    font-size: 0.9375rem;
+    background-color: white;
+    border: none;
+    border-radius: 1.5rem;
+    margin-top: 1.5625rem;
+}

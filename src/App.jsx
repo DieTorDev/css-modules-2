@@ -1,8 +1,13 @@
-import { GlobalStyles } from "./styles/GlobalStyles";
+import Container from './components/container/Container';
+import { GlobalStyles } from './styles/GlobalStyles';
 
 const App = () => {
-	return <GlobalStyles/>;
-
+	return (
+		<>
+			<GlobalStyles />
+			<Container />
+		</>
+	);
 };
 
 export default App;
